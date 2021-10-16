@@ -1,28 +1,16 @@
-import Analysis from "./components/Analysis/Analysis";
-import ClientReview from "./components/ClientReview/ClientReview";
-import Courses from "./components/Courses/Courses";
-import Footer from "./components/Footer/Footer";
-import Project from "./components/Project/Project";
-import Services from "./components/Services/Services";
-import Summary from "./components/Summary/Summary";
-import TopBanner from "./components/TopBanner/TopBanner";
-import TopNavigation from "./components/TopNavigation/TopNavigation";
-import Video from "./components/Video/Video";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import AppRoute from "./router/AppRoute";
 
 function App() {
   return (
-    <div>
-      <TopNavigation></TopNavigation>
-      <TopBanner></TopBanner>
-      <Services></Services>
-      <Analysis></Analysis>
-      <Summary></Summary>
-      <Project></Project>
-      <Courses></Courses>
-      <Video></Video>
-      <ClientReview></ClientReview>
-      <Footer></Footer>
-    </div>
+    <Router>
+       <AppRoute></AppRoute>
+    </Router>
   );
 }
 

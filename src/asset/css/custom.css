@@ -15,8 +15,7 @@
 }
 
 .topContent {
-    margin-top: 10rem;
-
+    margin-top: 12rem;
 }
 
 .topTitle {
@@ -104,7 +103,7 @@
 .navItem {
     text-decoration: none !important; 
     font-family: 'Montserrat', sans-serif;
-    color: white !important;
+    color: white ;
     font-weight: 400;
     font-size: 16px;
 }
@@ -323,6 +322,37 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
-   
+}
+
+.topFixedPage {
+    background-image: url('../images/banner-bg.jpg');
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverlay {
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background-color: rgba(0, 0 , 0, 0.6);
+}
+
+.topPageContent {
+    margin-top: 9rem;
 }
     
+.topPageTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 28px;
+}
+
+.form-control:focus {
+    border-radius: 2px !important;
+    border-color: #cee0f3 !important;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+}
