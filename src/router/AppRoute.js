@@ -3,7 +3,7 @@ import {Switch,Route} from "react-router-dom";
 import AboutPage from '../pages/AboutPage';
 import ContactPage from '../pages/ContactPage';
 import CoursesPage from '../pages/CoursesPage';
-import HomePage from '../pages/HomePage/HomePage';
+import HomePage from '../pages/HomePage';
 import PortfolioPage from '../pages/PortfolioPage';
 import ServicePage from '../pages/ServicePage';
 

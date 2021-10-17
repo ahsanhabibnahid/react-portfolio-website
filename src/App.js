@@ -1,8 +1,5 @@
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  BrowserRouter as Router
 } from "react-router-dom";
 import AppRoute from "./router/AppRoute";
 
